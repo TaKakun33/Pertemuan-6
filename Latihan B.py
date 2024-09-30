@@ -6,13 +6,13 @@ def perkalian3(n):
    
 print(perkalian3(2))
 
-def deret(x):
+def jummlah(x):
     if x == 1:
         return 1
     else:
-         return deret(x- 1) + x
+         return jummlah(x- 1) + x
     
-print(deret(3))
+print(jummlah(3))
 
 def aritmatika(x):
     if x == 1:
@@ -30,10 +30,10 @@ def geometri(x):
     
 print(geometri(3))
 
-def deret_2(x):
+def deret(x):
     if x == 1:
         return 1
     else:
-        return deret_2(x-1) + x**2
+        return deret(x-1) + x**2
     
-print(deret_2(4))
+print(deret(4))
