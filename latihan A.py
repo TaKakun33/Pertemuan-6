@@ -14,10 +14,18 @@ def perkalian(x,y):
     
 print(perkalian(5,3))
 
-def perkalian(x,y):
-    if y == 0:
-        return 0
+def pembagian(x,y):
+    if y == 1:
+        return x
     else:
-        return (perkalian(x,y - 1)) + x
+        return (pembagian(x,y-1)) / y
     
-print(perkalian(5,3))
+print(pembagian(4,2))
+
+def pemangkatan(x,y):
+    if y == 1:
+        return x
+    else:
+        return (pemangkatan(x,y-1)) 
+    
+print(pemangkatan(4,2))
