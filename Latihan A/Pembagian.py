@@ -1,5 +1,5 @@
 # Nama File   = Pembagian.py
-# Deskripsi   = membuat fungsi pengurangan dengan ekspresi rekursif 
+# Deskripsi   = membuat fungsi pembagian dengan ekspresi rekursif 
 # Nama        = akmal kafli anan
 # Tanggal     = 30 September 2024
 
