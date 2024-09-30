@@ -29,3 +29,11 @@ def geometri(x):
         return geometri(x-1) * x
     
 print(geometri(3))
+
+def deret_2(x):
+    if x == 1:
+        return 1
+    else:
+        return deret_2(x-1) + x**2
+    
+print(deret_2(4))
