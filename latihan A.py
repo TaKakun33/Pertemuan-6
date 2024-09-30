@@ -26,6 +26,6 @@ def pemangkatan(x,y):
     if y == 1:
         return x
     else:
-        return (pemangkatan(x,y-1)) 
+        return (pemangkatan(x,y-1)* x) 
     
-print(pemangkatan(4,2))
+print(pemangkatan(2,3))
